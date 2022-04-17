@@ -7,7 +7,7 @@
                 <h2>Переглянути рецепт</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary mb-3" href="{{ route('recipes.index') }}"> Назад</a>
+                <a class="btn btn-primary mb-3" href="{{ route('home.index') }}"> Назад</a>
             </div>
         </div>
     </div>

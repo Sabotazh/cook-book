@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Кулінарна книга для запису рецептів</h2>
+{{--                <h2>Кулінарна книга для запису рецептів</h2>--}}
             </div>
             <div class="pull-right mb-3">
                 <a class="btn btn-success" href="{{ route('recipes.create') }}">Створити новий рецепт</a>

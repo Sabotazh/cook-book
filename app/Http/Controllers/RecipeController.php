@@ -55,7 +55,7 @@ class RecipeController extends Controller
 
         Recipe::create($input);
 
-        return redirect()->route('recipes.index')->with('success','Рецепт створений');
+        return redirect()->route('home.index')->with('success','Рецепт створений');
     }
 
     /**
@@ -120,6 +120,6 @@ class RecipeController extends Controller
     {
         $recipe->delete();
 
-        return redirect()->route('recipes.index')->with('success','Рецепт видалено');
+        return redirect()->route('home.index')->with('success','Рецепт видалено');
     }
 }
